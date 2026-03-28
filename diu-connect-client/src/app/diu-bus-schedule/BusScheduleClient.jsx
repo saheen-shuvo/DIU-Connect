@@ -6,7 +6,9 @@ import { MapPin } from "lucide-react";
 import SearchBox from "../../components/bus/SearchBox.jsx";
 import RouteCard from "../../components/bus/RouteCard.jsx";
 import EmptyState from "../../components/bus/EmptyState.jsx";
-import DaySelector, { getTodayType } from "../../components/bus/DaySelector.jsx";
+import DaySelector, {
+  getTodayType,
+} from "../../components/bus/DaySelector.jsx";
 
 const POPULAR_LOCATIONS = [
   { slug: "mirpur", label: "Mirpur" },
@@ -17,6 +19,7 @@ const POPULAR_LOCATIONS = [
   { slug: "ecb", label: "ECB" },
   { slug: "narayanganj", label: "Narayanganj" },
   { slug: "rampura", label: "Rampura" },
+  { slug: "shyamoli", label: "Shyamoli" },
 ];
 
 export default function BusScheduleClient({ schedule }) {
@@ -35,7 +38,7 @@ export default function BusScheduleClient({ schedule }) {
     if (!query.trim()) return activeRoutes;
     const q = query.toLowerCase();
     return activeRoutes.filter((r) =>
-      r.stops.some((s) => s.toLowerCase().includes(q))
+      r.stops.some((s) => s.toLowerCase().includes(q)),
     );
   }, [query, activeRoutes]);
 
