@@ -1,0 +1,186 @@
+{
+  "lastUpdated": "2026-03-27",
+  "scheduleType": "Holy Ramadan, Spring 2026",
+  "routes": [
+    {
+      "routeNo": "R1",
+      "routeName": "Dhanmondi <> DSC",
+      "stops": ["Dhanmondi - Sobhanbag", "Shyamoli Square", "Technical Mor", "Majar Road, Gabtoli", "Konabari Bus Stop", "Eastern Housing", "Rupnagar", "Birulia Bus Stand", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["07:20", "10:00"], "fromDIU": ["11:45", "15:20"], "remarks": ["Only for Students bus", ""] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "R2",
+      "routeName": "Uttara Rajlokkhi <> Uttara Metro Rail Center <> DSC",
+      "stops": ["Uttara Rajlokkhi", "House Building", "Grand Zamzam Tower", "Uttara Metro Rail Center", "Diyabari Bridge", "Beribadh", "Birulia", "Khagan", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["07:20", "10:00"], "fromDIU": ["11:45", "15:20"], "remarks": ["Only for Students bus", ""] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "R3",
+      "routeName": "Tongi College Gate <> DSC",
+      "stops": ["Tongi College Gate Bus Stand", "Kamar Para", "Dhour", "Birulia", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["07:20", "10:00"], "fromDIU": ["11:45", "15:20"], "remarks": ["Only for Students bus", ""] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "R4",
+      "routeName": "ECB Chattar <> Mirpur <> DSC",
+      "stops": ["ECB Chattar", "Kalshi Mor", "Mirpur 12", "Mirpur 10", "Mirpur 2", "Mirpur 1 - Sony Cinema Hall", "Commerce College", "Gudaraghat", "Beribadh", "Eastern Housing", "Birulia", "Akran", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["07:20", "10:00"], "fromDIU": ["11:45", "15:20"], "remarks": ["Will go up to Mirpur-1, Mirpur-10, Pallabi and ECB", "Will go up to Mirpur-1, Mirpur-10, Pallabi and ECB"] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "R5",
+      "routeName": "Konabari Pukur Par <> Zirabo <> Ashulia Bazar <> DSC",
+      "stops": ["Konabari Pukur Par", "Norshingpur", "Ghosbag", "Zirabo", "Ashulia Bazar", "Paragram", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["07:20"], "fromDIU": ["15:20"], "remarks": [""] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "R6",
+      "routeName": "Baipail <> Nabinagar <> C&B <> DSC",
+      "stops": ["Baipail", "Polli Biddut", "Nabinagar", "Bismail", "Prantik", "JU", "C&B", "Kolma", "Charabag", "Kumkumari", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["07:20", "10:00"], "fromDIU": ["11:45", "15:20"], "remarks": ["Only for Students bus", "From Nabinagar"] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "R7",
+      "routeName": "Dhamrai Bus Stand <> Nabinagar <> C&B <> DSC",
+      "stops": ["Dhamrai Bus Stand", "Kohinur Market", "Gonoshastho", "Nabinagar", "Bismail", "Prantik", "JU", "C&B", "Kolma", "Charabag", "Kumkumari", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["07:20", "10:00"], "fromDIU": ["11:45", "15:20"], "remarks": ["Only for Students bus", "From Nabinagar"] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "R8",
+      "routeName": "Savar <> C&B <> DSC",
+      "stops": ["Savar Bus Stand", "Radio Colony", "C&B", "Kolma", "Charabag", "Kumkumari", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["07:20", "10:00"], "fromDIU": ["11:45", "15:20"], "remarks": ["Only for Students bus", ""] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "R9",
+      "routeName": "Narayanganj Chasara <> Dhanmondi <> DSC",
+      "stops": ["Narayanganj Chasara", "Sign Board", "Sonir Akhra", "Sayedabad Bus Stand", "Gulistan", "Chankharpul", "Nilkhet", "New Market", "Kolabagan", "Dhanmondi - Sobhanbag", "Shyamoli Square", "Technical Mor", "Majar Road, Gabtoli", "Konabari Bus Stop", "Eastern Housing", "Rupnagar", "Birulia Bus Stand", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["06:30"], "fromDIU": ["11:45", "15:20"], "remarks": ["Only one bus is assigned for Students", ""] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "R10",
+      "routeName": "Mugda Medical College <> Mugda Model Thana <> Malibag <> Rampura <> DSC",
+      "stops": ["Mugda Medical College", "Bashabo", "Malibagh Railgate (South Bus Stop)", "Rampura Bazar Bus Stop", "Rampura Bridge", "Middle Badda", "Badda Suvastu Tower", "Notun Bazar", "Jamuna Future Park", "Kuril Bishwa Road", "Birulia", "Khagan", "Akran", "Eastern Mor", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["06:30"], "fromDIU": ["11:45", "15:20"], "remarks": ["Only one bus is assigned for Students", ""] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "R11",
+      "routeName": "Mirpur-1 <> Sony Cinema Hall <> DSC",
+      "stops": ["Sony Cinema Hall", "Gudaraghat", "Beribadh", "Eastern Housing", "Birulia", "Akran", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["07:20", "08:45", "10:00"], "fromDIU": ["11:45", "13:30", "15:20"], "remarks": ["Will go up to Mirpur-1 only", "Will go up to Mirpur-1 only", "Will go up to Mirpur-10 only"] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "R12",
+      "routeName": "Uttara Moylar Mor <> Uttara Metro Rail Center <> DSC",
+      "stops": ["Uttara Moylar Mor", "Uttara Metro Rail Center", "Beribadh", "Birulia", "Khagan", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["07:20", "08:45", "10:00"], "fromDIU": ["11:45", "13:30", "15:20"], "remarks": ["Uttara Moylar Mor only", "Uttara Moylar Mor only", "Uttara Moylar Mor only"] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "R13",
+      "routeName": "C&B <> DSC",
+      "stops": ["C&B", "Kolma", "Charabag", "Kumkumari", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["07:20", "08:45", "10:00"], "fromDIU": ["11:45", "13:30", "15:20"], "remarks": ["C&B only", "C&B only", "C&B only"] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "R14",
+      "routeName": "Uttara Metro Rail Center <> DSC",
+      "stops": ["Uttara Metro Rail Center", "Beribadh", "Birulia", "Khagan", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["07:20", "08:45", "10:00"], "fromDIU": ["11:45", "13:30", "15:20"], "remarks": ["", "", ""] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "R15",
+      "routeName": "Tongi Station Route <> Daffodil Smart City",
+      "stops": ["Tongi Station Route", "Kamar Para", "Dhour", "Birulia", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": ["07:20", "08:45", "10:00"], "fromDIU": ["11:45", "13:30", "15:20"], "remarks": ["Tongi station route", "Tongi station route", "Tongi station route"] },
+        "friday": { "toDIU": [], "fromDIU": [], "remarks": [] }
+      }
+    },
+    {
+      "routeNo": "F1",
+      "routeName": "Dhanmondi <> DSC (Friday)",
+      "stops": ["Dhanmondi - Sobhanbag", "Shyamoli Square", "Technical Mor", "Majar Road, Gabtoli", "Mirpur Konabari", "Eastern Housing", "Rupnagar", "Birulia Bus Stand", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": [], "fromDIU": [], "remarks": [] },
+        "friday": { "toDIU": ["08:00"], "fromDIU": ["12:10", "16:20"], "remarks": ["Mirpur 1 via Dhanmondi", ""] }
+      }
+    },
+    {
+      "routeNo": "F2",
+      "routeName": "Tongi College Gate <> Uttara <> DSC (Friday)",
+      "stops": ["Tongi College Gate Bus Stand", "Kamar Para", "Dhour", "Birulia", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": [], "fromDIU": [], "remarks": [] },
+        "friday": { "toDIU": ["08:00"], "fromDIU": ["16:20"], "remarks": ["DSC > Uttara House Building > Abdullahpur"] }
+      }
+    },
+    {
+      "routeNo": "F3",
+      "routeName": "Uttara Rajlokkhi <> Uttara Metro Rail Center <> DSC (Friday)",
+      "stops": ["Uttara Rajlokkhi", "House Building", "Grand Zamzam Tower", "Uttara Metro Rail Center", "Diyabari Bridge", "Beribadh", "Birulia", "Khagan", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": [], "fromDIU": [], "remarks": [] },
+        "friday": { "toDIU": ["08:00"], "fromDIU": ["12:10", "16:20"], "remarks": ["DSC > Uttara House Building > Abdullahpur", ""] }
+      }
+    },
+    {
+      "routeNo": "F4",
+      "routeName": "Savar <> Nabinagar <> C&B <> DSC (Friday)",
+      "stops": ["Savar", "Nabinagar", "C&B", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": [], "fromDIU": [], "remarks": [] },
+        "friday": { "toDIU": ["08:00"], "fromDIU": ["16:20"], "remarks": [""] }
+      }
+    },
+    {
+      "routeNo": "F5",
+      "routeName": "Mirpur-10 <> Sony Cinema Hall <> DSC (Friday)",
+      "stops": ["Mirpur-10", "Sony Cinema Hall", "Daffodil Smart City"],
+      "schedule": {
+        "weekdays": { "toDIU": [], "fromDIU": [], "remarks": [] },
+        "friday": { "toDIU": ["08:00"], "fromDIU": ["16:20"], "remarks": [""] }
+      }
+    }
+  ]
+}
