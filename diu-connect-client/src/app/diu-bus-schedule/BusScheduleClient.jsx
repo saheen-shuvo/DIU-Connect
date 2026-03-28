@@ -78,7 +78,7 @@ export default function BusScheduleClient({ schedule }) {
                   href={`/diu-bus-schedule/${slug}`}
                   className="flex items-center gap-2 rounded-xl border border-gray-200 bg-card px-4 py-3 text-sm font-medium shadow-sm hover:shadow-md hover:border-primary/30 transition-all"
                 >
-                  <MapPin className="h-4 w-4 text-primary shrink-0" />
+                  <MapPin className="h-4 w-4 text-[#0c53a1] shrink-0" />
                   {label} → DIU
                 </Link>
               ))}

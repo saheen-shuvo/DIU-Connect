@@ -17,10 +17,10 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur-md shadow-sm">
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-4">
-        
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 font-bold text-lg">
-          DIU Connect
+        <Link href="/" className="flex items-center gap-1 font-bold text-lg">
+          <span className="text-[#0c53a1]">DIU</span>
+          <span className="text-[#3ab252]">Connect</span>
         </Link>
 
         {/* Nav */}
@@ -35,7 +35,7 @@ export default function Navbar() {
                 href={to}
                 className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium transition-colors ${
                   active
-                    ? "bg-blue-400 text-white"
+                    ? "bg-[#0c53a1] text-white"
                     : "text-gray-500 hover:bg-gray-100 hover:text-black"
                 }`}
               >

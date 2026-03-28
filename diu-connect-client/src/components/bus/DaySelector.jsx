@@ -30,7 +30,7 @@ export default function DaySelector({ selected, onChange }) {
             onClick={() => onChange(value)}
             className={`relative whitespace-nowrap rounded-full px-3 py-1.5 text-sm font-medium transition-all ${
               isSelected
-                ? "bg-green-400 text-primary-foreground shadow-sm"
+                ? "bg-[#0c53a1] text-white shadow-sm"
                 : "bg-secondary/60 text-muted-foreground hover:bg-secondary hover:text-foreground"
             }`}
             type="button"

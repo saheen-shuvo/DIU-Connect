@@ -41,7 +41,7 @@ export default function RouteCard({ route, highlightQuery, selectedDay }) {
       {/* Header */}
       <div className="flex items-center justify-between border-b border-gray-300 bg-gray-100 px-4 py-3">
         <div>
-          <span className="mr-2 inline-block rounded-lg bg-blue-200 px-2 py-0.5 text-xs font-bold text-primary-foreground">
+          <span className="mr-2 inline-block rounded-lg bg-[#0c53a1] text-white px-2 py-0.5 text-xs font-bold text-primary-foreground">
             {route.routeNo}
           </span>
           <span className="font-semibold text-sm">{route.routeName}</span>
@@ -79,7 +79,7 @@ export default function RouteCard({ route, highlightQuery, selectedDay }) {
 
       {/* Times */}
       {noService ? (
-        <div className="p-4 text-center text-sm text-muted-foreground">
+        <div className="p-4 text-center text-sm text-muted-foreground text-red-500">
           🚫 No service on this day
         </div>
       ) : (
