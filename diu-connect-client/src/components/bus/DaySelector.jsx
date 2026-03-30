@@ -16,7 +16,6 @@ export function getTodayType() {
 
 export default function DaySelector({ selected, onChange }) {
   const today = getTodayType();
-  //   console.log(today); //"saturday"
 
   return (
     <div className="flex items-center gap-2 overflow-x-auto pb-1">

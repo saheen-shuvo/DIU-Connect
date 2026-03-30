@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Bus, GraduationCap, Calendar } from "lucide-react";
+import Counter from "@/features/counter/Counter";
 
 const features = [
   {
@@ -39,6 +40,7 @@ export default function Home() {
           <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
             DIU <span className="text-black">Connect</span>
           </h1>
+          <Counter></Counter>
 
           <p className="mt-3 text-gray-600">
             DIU Connect is a student platform for Daffodil International

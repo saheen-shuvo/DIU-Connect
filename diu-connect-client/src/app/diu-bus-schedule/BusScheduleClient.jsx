@@ -9,6 +9,7 @@ import EmptyState from "../../components/bus/EmptyState.jsx";
 import DaySelector, {
   getTodayType,
 } from "../../components/bus/DaySelector.jsx";
+import { useSelector } from "react-redux";
 
 const POPULAR_LOCATIONS = [
   { slug: "mirpur", label: "Mirpur" },
@@ -23,6 +24,7 @@ const POPULAR_LOCATIONS = [
 ];
 
 export default function BusScheduleClient({ schedule }) {
+  const value = useSelector((state) => state.counter.value);
   const [query, setQuery] = useState("");
   const [selectedDay, setSelectedDay] = useState(getTodayType());
 
@@ -47,6 +49,7 @@ export default function BusScheduleClient({ schedule }) {
       <main className="mx-auto max-w-4xl px-4 py-6 space-y-6">
         <div className="text-center">
           <h1 className="text-2xl font-bold">Bus Schedule</h1>
+          <h1>Count: {value}</h1>
           <p className="text-sm text-muted-foreground">
             Find your bus to and from Daffodil Smart City
           </p>
